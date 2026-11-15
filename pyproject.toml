@@ -3,8 +3,8 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "flatJSON2csv"
-version = "2.0.0"
+name = "unnest-studio"
+version = "2.1.0"
 description = "Unnest Studio — The local, privacy-first JSON to tabular studio."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -15,6 +15,7 @@ excel = ["openpyxl>=3.1.0"]
 
 [project.scripts]
 unnest = "flatJSON2csv:main"
+unnest-studio = "flatJSON2csv:main"
 flatJSON2csv = "flatJSON2csv:main"
 
 [tool.setuptools]

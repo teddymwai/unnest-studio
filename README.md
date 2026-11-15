@@ -64,7 +64,7 @@ You can also simply open `unnest_studio.html` (or `web/index.html`) directly in 
 
 Because the web interface is 100% client-side with zero backend dependencies, it is ready for instant deployment to GitHub Pages:
 - The hosted app is published from `web/` by the GitHub Actions workflow.
-- After deployment, open <https://teddymwai.github.io/flatJSON2csv/>.
+- After deployment, open <https://teddymwai.github.io/unnest-studio/>.
 
 When deployed to `https://<username>.github.io/<repo>/`, users can drop sensitive JSON files directly into their browser. **Input data stays in the browser and is never uploaded**—the conversion executes entirely on the user's local CPU.
 
@@ -201,7 +201,7 @@ For full details on input shapes, array handling, and nested path flattening, se
 
 *ted thought this was functional & fancy*
 
-- **GitHub:** [@teddymwai](https://github.com/teddymwai) / [flatJSON2csv](https://github.com/teddymwai/flatJSON2csv)
+- **GitHub:** [@teddymwai](https://github.com/teddymwai) / [unnest-studio](https://github.com/teddymwai/unnest-studio)
 - **GitLab:** [@teddymwai](https://gitlab.com/teddymwai)
 - **Twitter / X:** [@teddymwai](https://x.com/teddymwai)
 - **Instagram:** [@teddymwai](https://instagram.com/teddymwai)

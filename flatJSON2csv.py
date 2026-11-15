@@ -21,7 +21,7 @@ def build_parser() -> argparse.ArgumentParser:
         description="Unnest Studio (flatJSON2csv) — The local, privacy-first JSON to tabular studio.\nLocal, streaming JSON and NDJSON to CSV/Excel converter for sensitive datasets.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
-    parser.add_argument("-v", "--version", action="version", version="Unnest Studio 2.0.0 (flatJSON2csv)")
+    parser.add_argument("-v", "--version", action="version", version="Unnest Studio 2.1.0 (unnest-studio)")
     parser.add_argument("input", nargs="?", help="JSON/NDJSON file, glob, or directory (optional with --web)")
     parser.add_argument("-o", "--output", help="CSV or XLSX output file or directory (required unless using --web)")
     parser.add_argument(

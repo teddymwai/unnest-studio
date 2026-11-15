@@ -1,4 +1,4 @@
-name: Deploy flatJSON2csv to GitHub Pages
+name: Deploy Unnest Studio to GitHub Pages
 
 on:
   push:
