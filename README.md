@@ -1,4 +1,4 @@
-# Unnest Studio (flatJSON2csv)
+# Unnest Studio (formerly flatJSON2csv)
 
 > *The local, privacy-first JSON to tabular studio.*
 >
